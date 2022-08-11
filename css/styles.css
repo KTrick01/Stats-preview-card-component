@@ -37,6 +37,8 @@ body {
     border-radius: 15px;
     background-color: var(--card-background);
     margin: 30px;
+    margin-bottom: 4rem;
+    
     display: grid;
     grid-template-columns: 1fr;
     grid-template-areas:
@@ -116,6 +118,8 @@ body {
 
 @media (min-width: 920px) {
     .main {
+        
+        
         max-width: 1100px;
         grid-template-columns: 1fr 1fr;
         grid-template-areas:
